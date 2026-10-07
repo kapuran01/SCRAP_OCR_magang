@@ -1,0 +1,32 @@
+{
+  "id_pendaftar": "P003",
+  "skenario": "nama di ijazah beda dengan KTP",
+  "status_diharapkan": "PERLU_REVIEW",
+  "KTP": {
+    "nik": "3374010311000003",
+    "nama": "ANDI PRATAMA",
+    "tempat_lahir": "DEMAK",
+    "tanggal_lahir": "2000-11-03",
+    "jenis_kelamin": "LAKI-LAKI",
+    "alamat": "JL. SULTAN AGUNG NO. 7, RT 001/RW 005, WONOTINGAL, CANDISARI"
+  },
+  "IJAZAH": {
+    "nama": "ANDI PRASETYO",
+    "nomor_ijazah": "IJZ-2023-000789",
+    "jenjang": "S1",
+    "program_studi": "TEKNIK ELEKTRO",
+    "institusi": "INSTITUT TEKNOLOGI CONTOH",
+    "tanggal_lulus": "2024-02-28"
+  },
+  "SKCK": {
+    "nama": "ANDI PRATAMA",
+    "nomor_skck": "SKCK/0789/IX/2026",
+    "berlaku_hingga": "2027-03-15"
+  },
+  "MCU": {
+    "nama": "ANDI PRATAMA",
+    "nomor_surat": "MCU/2026/1011",
+    "tanggal_periksa": "2026-09-22",
+    "kesimpulan": "LAYAK"
+  }
+}

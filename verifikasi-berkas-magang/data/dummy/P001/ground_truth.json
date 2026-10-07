@@ -1,0 +1,32 @@
+{
+  "id_pendaftar": "P001",
+  "skenario": "program studi tidak sesuai syarat",
+  "status_diharapkan": "TIDAK_LOLOS",
+  "KTP": {
+    "nik": "3374011505010001",
+    "nama": "GOKU KAMEHAME",
+    "tempat_lahir": "SEMARANG",
+    "tanggal_lahir": "2001-05-15",
+    "jenis_kelamin": "LAKI-LAKI",
+    "alamat": "JL. MERDEKA NO. 10, RT 002/RW 003, PLEBURAN, SEMARANG SELATAN"
+  },
+  "IJAZAH": {
+    "nama": "GOKU KAMEHAME",
+    "nomor_ijazah": "IJZ-2024-000123",
+    "jenjang": "S1",
+    "program_studi": "TEKNIK MENCARI CINTA SEJATI",
+    "institusi": "UNIVERSITAS CONTOH NUSANTARA",
+    "tanggal_lulus": "2024-08-20"
+  },
+  "SKCK": {
+    "nama": "GOKU KAMEHAME",
+    "nomor_skck": "SKCK/0123/X/2026",
+    "berlaku_hingga": "2027-04-01"
+  },
+  "MCU": {
+    "nama": "GOKU KAMEHAME",
+    "nomor_surat": "MCU/2026/0456",
+    "tanggal_periksa": "2026-09-20",
+    "kesimpulan": "LAYAK"
+  }
+}

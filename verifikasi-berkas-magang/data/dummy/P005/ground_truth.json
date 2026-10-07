@@ -1,0 +1,32 @@
+{
+  "id_pendaftar": "P005",
+  "skenario": "foto KTP buram",
+  "status_diharapkan": "UNGGAH_ULANG",
+  "KTP": {
+    "nik": "3374011206010005",
+    "nama": "RIZKY HIDAYAT",
+    "tempat_lahir": "UNGARAN",
+    "tanggal_lahir": "2001-06-12",
+    "jenis_kelamin": "LAKI-LAKI",
+    "alamat": "JL. NGESREP TIMUR NO. 3, RT 005/RW 002, SUMURBOTO, BANYUMANIK"
+  },
+  "IJAZAH": {
+    "nama": "RIZKY HIDAYAT",
+    "nomor_ijazah": "IJZ-2024-000654",
+    "jenjang": "S1",
+    "program_studi": "ILMU KOMPUTER",
+    "institusi": "UNIVERSITAS CONTOH NUSANTARA",
+    "tanggal_lulus": "2024-08-25"
+  },
+  "SKCK": {
+    "nama": "RIZKY HIDAYAT",
+    "nomor_skck": "SKCK/0654/IX/2026",
+    "berlaku_hingga": "2027-03-05"
+  },
+  "MCU": {
+    "nama": "RIZKY HIDAYAT",
+    "nomor_surat": "MCU/2026/1213",
+    "tanggal_periksa": "2026-09-21",
+    "kesimpulan": "LAYAK"
+  }
+}

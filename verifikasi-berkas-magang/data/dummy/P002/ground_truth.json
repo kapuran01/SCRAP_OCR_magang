@@ -1,0 +1,32 @@
+{
+  "id_pendaftar": "P002",
+  "skenario": "SKCK sudah tidak berlaku",
+  "status_diharapkan": "TIDAK_LOLOS",
+  "KTP": {
+    "nik": "3374026108020002",
+    "nama": "SITI RAHMAWATI",
+    "tempat_lahir": "KENDAL",
+    "tanggal_lahir": "2002-08-21",
+    "jenis_kelamin": "PEREMPUAN",
+    "alamat": "JL. PANDANARAN NO. 45, RT 004/RW 001, RANDUSARI, SEMARANG SELATAN"
+  },
+  "IJAZAH": {
+    "nama": "SITI RAHMAWATI",
+    "nomor_ijazah": "IJZ-2024-000456",
+    "jenjang": "S1",
+    "program_studi": "SISTEM INFORMASI",
+    "institusi": "UNIVERSITAS CONTOH NUSANTARA",
+    "tanggal_lulus": "2024-09-15"
+  },
+  "SKCK": {
+    "nama": "SITI RAHMAWATI",
+    "nomor_skck": "SKCK/0456/II/2026",
+    "berlaku_hingga": "2026-08-10"
+  },
+  "MCU": {
+    "nama": "SITI RAHMAWATI",
+    "nomor_surat": "MCU/2026/0789",
+    "tanggal_periksa": "2026-09-18",
+    "kesimpulan": "LAYAK"
+  }
+}

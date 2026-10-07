@@ -1,0 +1,48 @@
+# ============ PENGATURAN UMUM ============
+ocr:
+  engine: auto          # auto = coba PaddleOCR dulu, kalau gagal pakai Tesseract
+  paddle_lang: en       # dokumen Indonesia huruf latin, "en" sudah cukup
+  # di Windows biasanya perlu isi path tesseract.exe, contoh:
+  # tesseract_cmd: "C:/Program Files/Tesseract-OCR/tesseract.exe"
+  tesseract_cmd: null
+  tesseract_lang: eng   # kalau sudah install bahasa indonesia bisa ganti "ind"
+
+llm:
+  pakai_llm: true       # false = langsung pakai ekstraksi regex (tanpa Ollama)
+  ollama_url: "http://localhost:11434"
+  model: "qwen2.5:7b"
+  timeout_detik: 120
+
+preprocessing:
+  dpi: 300
+  sisi_panjang: 2000
+  ukuran_file_maks_mb: 1
+
+# ============ AMBANG (masih perkiraan, nanti dikalibrasi) ============
+ambang:
+  laplacian_min: 40         # di bawah ini dianggap buram (lihat README bagian kalibrasi)
+  confidence_yakin: 0.85
+  confidence_minimal: 0.60
+  faktor_koreksi: 0.9       # confidence dikali ini kalau nilai dikoreksi
+  kemiripan_nama: 90        # persen, pakai rapidfuzz
+  kemiripan_prodi_review: 80
+  # Tesseract confidence-nya cenderung lebih rendah dari PaddleOCR (skalanya beda),
+  # jadi ambangnya dibedakan. Angka ini dari coba-coba di data dummy, belum final.
+  per_engine:
+    tesseract:
+      confidence_yakin: 0.80
+      confidence_minimal: 0.40
+
+# ============ SYARAT PROGRAM MAGANG (contoh) ============
+program:
+  tanggal_pendaftaran: "2026-10-05"
+  usia_min: 18
+  usia_max: 25
+  jenjang_diizinkan: ["D3", "D4", "S1"]
+  prodi_diizinkan:
+    - TEKNIK INFORMATIKA
+    - ILMU KOMPUTER
+    - SISTEM INFORMASI
+    - TEKNIK ELEKTRO
+    - MATEMATIKA
+    - STATISTIKA

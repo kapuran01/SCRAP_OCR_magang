@@ -1,0 +1,26 @@
+{
+  "id_pendaftar": "P004",
+  "skenario": "hasil MCU belum diunggah",
+  "status_diharapkan": "UNGGAH_ULANG",
+  "KTP": {
+    "nik": "3374024901030004",
+    "nama": "DEWI LESTARI",
+    "tempat_lahir": "SALATIGA",
+    "tanggal_lahir": "2003-01-09",
+    "jenis_kelamin": "PEREMPUAN",
+    "alamat": "JL. SETIABUDI NO. 112, RT 003/RW 002, SRONDOL KULON, BANYUMANIK"
+  },
+  "IJAZAH": {
+    "nama": "DEWI LESTARI",
+    "nomor_ijazah": "IJZ-2025-000321",
+    "jenjang": "D3",
+    "program_studi": "TEKNIK INFORMATIKA",
+    "institusi": "POLITEKNIK CONTOH",
+    "tanggal_lulus": "2025-07-30"
+  },
+  "SKCK": {
+    "nama": "DEWI LESTARI",
+    "nomor_skck": "SKCK/0321/VIII/2026",
+    "berlaku_hingga": "2027-02-20"
+  }
+}

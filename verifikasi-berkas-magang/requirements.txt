@@ -1,0 +1,13 @@
+pymupdf
+opencv-python
+numpy
+pillow
+pyyaml
+pydantic>=2
+rapidfuzz
+requests
+scikit-learn
+pytesseract
+# PaddleOCR (opsional tapi disarankan, akurasinya lebih bagus dari Tesseract)
+paddlepaddle
+paddleocr
